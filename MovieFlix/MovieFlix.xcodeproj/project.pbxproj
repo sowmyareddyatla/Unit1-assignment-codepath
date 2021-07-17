@@ -17,6 +17,7 @@
 		4CB9F6162699496D000C2369 /* MovieFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9F6152699496D000C2369 /* MovieFlixUITests.swift */; };
 		4CB9F6242699570C000C2369 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9F6232699570C000C2369 /* MovieCell.swift */; };
 		4CB9F627269961D2000C2369 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4CB9F626269961D2000C2369 /* AlamofireImage */; };
+		4CB9F62D26A2844D000C2369 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB9F62C26A2844D000C2369 /* MovieDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		4CB9F6152699496D000C2369 /* MovieFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFlixUITests.swift; sourceTree = "<group>"; };
 		4CB9F6172699496D000C2369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB9F6232699570C000C2369 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		4CB9F62C26A2844D000C2369 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				4CB9F5FC2699496D000C2369 /* Assets.xcassets */,
 				4CB9F5FE2699496D000C2369 /* LaunchScreen.storyboard */,
 				4CB9F6012699496D000C2369 /* Info.plist */,
+				4CB9F62C26A2844D000C2369 /* MovieDetailsViewController.swift */,
 			);
 			path = MovieFlix;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB9F62D26A2844D000C2369 /* MovieDetailsViewController.swift in Sources */,
 				4CB9F5F82699496A000C2369 /* ViewController.swift in Sources */,
 				4CB9F5F42699496A000C2369 /* AppDelegate.swift in Sources */,
 				4CB9F6242699570C000C2369 /* MovieCell.swift in Sources */,

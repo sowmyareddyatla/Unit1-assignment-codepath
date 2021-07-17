@@ -52,6 +52,7 @@
                                             <outlet property="posterView" destination="mGU-tC-Cn4" id="Oev-A3-kmK"/>
                                             <outlet property="synopsisLabel" destination="VU3-Zi-2Yk" id="WJe-yO-x1G"/>
                                             <outlet property="titleLabel" destination="chw-u9-Imp" id="K5f-xJ-IN4"/>
+                                            <segue destination="qBU-LJ-rjP" kind="show" id="qVD-N9-bql"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -68,6 +69,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="75"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="XoS-Vx-UbM">
+            <objects>
+                <viewController id="qBU-LJ-rjP" customClass="MovieDetailsViewController" customModule="MovieFlix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rQ0-PU-lRo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="PEp-aD-3wd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D7o-wo-KMs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cx-Wm-Cq5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1612" y="88"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="doY-rT-mAA">
